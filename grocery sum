@@ -1,0 +1,9 @@
+expense=[]
+total=0
+numexpenses= int(input("What is the number of expenses you had this week?:"))
+
+for x in range(numexpenses):
+    expense.append(int(input("What is the value of the expense?:")))
+    total= sum(expense)
+print(total)
+
