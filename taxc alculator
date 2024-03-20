@@ -1,0 +1,5 @@
+amount= 500
+tax= 0.15
+total= int(amount +  amount*tax)
+print(total)
+
